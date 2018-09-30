@@ -29,12 +29,12 @@ echo -e ${blu}" 〉 0- Magisk "${txtrst}${red}"                       ︱ Magisk
 echo -e "";
 echo -e ${blu}" 〉 1 or any other input- Rootless "${txtrst}${red}"  ︱ Unrooted builds [default]"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 30/sec Time-out"${txtrst}${red}"                  ︱ Default option"${txtrst}
+echo -e ${blu}" 〉 10/sec Time-out"${txtrst}${red}"                  ︱ Default option"${txtrst}
 echo -e "";
 echo -e ${cya}" ▼ Pick a number"${txtrst}
 echo -e "";
 $normal
-read -t 30 askvariant
+read -t 10 askvariant
 sleep 1
 if [ "$askvariant" == "0" ];
 then

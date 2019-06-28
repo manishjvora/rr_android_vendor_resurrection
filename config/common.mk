@@ -83,7 +83,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DeskClock \
     NexusLauncher \
-    Wallpaper
+    Wallpaper \
+    PixelFilter
 
 # DU Utils Library
 PRODUCT_BOOT_JARS += \

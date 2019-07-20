@@ -81,9 +81,6 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    DeskClock \
-    NexusLauncher \
-    Wallpaper \
     PixelFilter
 
 # DU Utils Library
@@ -175,16 +172,11 @@ PRODUCT_PACKAGES += \
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    ResurrectionOTA \
-    ResurrectionStats \
     Trebuchet \
     AudioFX \
-    CMFileManager \
     Eleven \
     LockClock \
     CMSettingsProvider \
-    ExactCalculator \
-    Jelly \
     LiveLockScreenService \
     WeatherProvider \
     OmniStyle \

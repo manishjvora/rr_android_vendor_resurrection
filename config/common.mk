@@ -81,7 +81,8 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    PixelFilter
+    PixelFilter \
+    ViaBrowser
 
 # DU Utils Library
 PRODUCT_BOOT_JARS += \
